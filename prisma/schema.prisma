@@ -18,5 +18,5 @@ model Notification {
   readAt      DateTime?
   createdAt   DateTime  @default(now())
 
-  @@index([recipientID])
+  @@index([recipientId])
 }
